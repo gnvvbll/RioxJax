@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading_default{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.line {
+    width: 70px;
+    height: 2px;
+    margin: auto;
+    background-color: tomato;
+}
+
+/* NAVIGATION */
+
+.navbar-brand {
+    width: 150px;
+}
+
+.navbar-expand-lg {
+    padding-left: 300px;
+    padding-right: 300px;
+    transition: background-color 0.5s ease;
+}
+
+.navigation a{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.bg-light {
+    background-color: transparent !important;
+    padding-top: 10px; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: tomato;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    /* color: rgba(0, 0, 0, 0.9); */
+    color: #ff6347;
+}
+
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(224, 220, 220, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 170px;
+}
+
+.overlay h1{
+    font-size: 65px;
+    text-shadow: -1px 2px 8px #565758;
+    text-shadow: -1px 2px 8px rgba (45,53,65,0.6);
+    text-align: center;
+    margin: 0 0 23px;
+    color: #fff;
+}
+
+.overlay h3{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 300px;
+}
+
+/* ABOUT ME */
+
+.about_me{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.left-profile {
+    list-style: none;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.inner_section_left b{
+    padding-bottom: 14px;
+}
+
+.inner_section_right p{
+    font-size: 14px;
+    padding: 25px;
+}
+
+.contact-button button{
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 200px;
+    box-shadow: none;
+    background-color: transparent;
+    border: 3px solid tomato;
+    transition: 0.5s ease;
+}
+
+.contact-button button:hover{
+    background-color: tomato;
+    border-color: tomato;
+    color: #fff;
+
+}
+
+/* SERVICES */
+
+.services {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('../images/Menu.jpg');
+}
+
+.services h1{
+    font-size: 65px;
+    text-shadow: -1px 2px 8px #565758;
+    text-shadow: -1px 2px 8px rgba (45,53,65,0.6);
+    text-align: center;
+    margin: 0 0 23px;
+    color: #fff;
+    padding-top: 170px;
+}
