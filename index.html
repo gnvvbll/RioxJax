@@ -21,13 +21,13 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link" href="#ABOUT">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">MEALS</a>
+                                <a class="nav-link" href="#MEALS">MEALS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
+                                <a class="nav-link" href="#CONTACT">CONTACT</a>
                             </li>
                             </ul>
                         </div>
@@ -43,6 +43,7 @@
             </div>
         </section>
         <!--ABOUT ME-->
+        <a name="ABOUT"></a>
         <section class="about_me">
             <h1 class="heading_default">A recipe for success.</h1>
             <div class="line"></div>
@@ -61,13 +62,40 @@
             </div>
         </section>
         <!-- SERVICES SECTION -->
+        <a name="MEALS"></a>
         <section class="services">
             <div class="services-overlay">
-                <h1>Your culinary adventure begins here.</h1>
+                <div class="services-blurb">
+                    <h1>What's for dinner?</h1>
+                </div>
+                <div class="row offset-md-1">
+                    <div class="menu-options col-sm-12">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Five Courses</h5>
+                          <p class="card-text">Courses include two appetizers, seasonal salad or soup, main course and dessert.</p>
+                            <br />
+                            <h5 class="card-title">Eight Courses</h5>
+                            <p class="card-text">Courses include three appetizers, seasonal salad and soup, main course and dessert.</p>
+                            <br />
+                            <h5 class="card-title">Twelve Courses</h5>
+                            <p class="card-text">Courses include four appetizers, seasonal salad and soup, two main courses and dessert.</p>
+                            <br />
+                            <h5 class="card-title">Custom</h5>
+                            <p class="card-text">Create your own course and portions with our experts.</p>
+                            <br />
+                            <div class="col-sm-12 contact-button text-center">
+                            <button type="button" class="btn">PLAN YOUR MEAL</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!--CONTACT-->
+        <a name="CONTACT"></a>
         <section class="about_me">
             <h1 class="heading_default">Let's break bread.</h1>
             <div class="line"></div>
@@ -88,8 +116,10 @@
                 </div>
             </div>
         </section>
-        <script src="javascript/bootstrap.js"></script>
         <script src="javascript/jquery.js"></script>
+        <script src="javascript/scrolling.js"></script>
         <script src="javascript/custom.js"></script>
+        <script src="javascript/jquery.localscroll.js" type="text/javascript"></script> 
+        <script src="javascript/bootstrap.js"></script>
     </body>
 </html>

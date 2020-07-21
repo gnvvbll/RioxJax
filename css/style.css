@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -78,7 +82,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    padding-top: 170px;
+    padding-top: 160px;
 }
 
 .overlay h1{
@@ -101,8 +105,8 @@ body {
 /* ABOUT ME */
 
 .about_me{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 
@@ -116,6 +120,7 @@ body {
 
 .inner_section_left b{
     padding-bottom: 14px;
+    padding-top: 14px;
 }
 
 .inner_section_right p{
@@ -151,7 +156,7 @@ body {
     background-image: url('../images/Menu.jpg');
 }
 
-.services h1{
+.services-blurb h1{
     font-size: 65px;
     text-shadow: -1px 2px 8px #565758;
     text-shadow: -1px 2px 8px rgba (45,53,65,0.6);
@@ -159,4 +164,33 @@ body {
     margin: 0 0 23px;
     color: #fff;
     padding-top: 170px;
+    padding-bottom: 40px;
+}
+
+.menu-button{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-radius: 0px;
+    width: 500px;
+    box-shadow: none;
+    background-color: transparent;
+    border: 3px solid tomato;
+    transition: 0.5s ease;
+}
+
+.menu-button button:hover{
+    background-color: tomato;
+    border-color: tomato;
+    color: #fff;
+}
+
+.card{
+    width: 500px;
+    border-radius: 0 !important;
+    background-color: rgb(244, 245, 248);
+    opacity: .9;
+}
+
+.menu-options{
+    padding-bottom: 50px;
 }
