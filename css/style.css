@@ -152,7 +152,6 @@ body {
     width: 100%;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     background-image: url('../images/Menu.jpg');
 }
 
@@ -185,12 +184,15 @@ body {
 }
 
 .card{
-    width: 500px;
-    border-radius: 0 !important;
-    background-color: rgb(244, 245, 248);
-    opacity: .9;
+    position: center;
+    background: none;
+    border: none;
 }
 
-.menu-options{
-    padding-bottom: 50px;
+.accordion-container {
+    background-color: #fff;
+    opacity: 0.9;
 }
+
+
+
