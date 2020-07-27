@@ -162,8 +162,8 @@ body {
     text-align: center;
     margin: 0 0 23px;
     color: #fff;
-    padding-top: 170px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .menu-button{
@@ -183,15 +183,43 @@ body {
     color: #fff;
 }
 
-.card{
-    position: center;
-    background: none;
-    border: none;
-}
-
 .accordion-container {
     background-color: #fff;
     opacity: 0.9;
+}
+
+.card-img-top {
+    width: 150px;
+    margin: 75px auto;
+    margin-bottom: 41px;
+    float: none;
+    display: table;
+}
+
+.card {
+    position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 10px;
+}
+
+.column {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    
 }
 
 
