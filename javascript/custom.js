@@ -1,4 +1,3 @@
-
 var navigation = $('.header').offset().top + 500;
 
 $(document).scroll(function(){
@@ -27,6 +26,8 @@ $(document).scroll(function(){
         });
     }
 });
+
+
 
 
 
